@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4136A16476D7E7736A0CDEB5 /* libPods-FRPixelsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D3C194A64FBA72B7FF0DD0A /* libPods-FRPixelsTests.a */; };
 		81F64BBB1C4FD5B000DC7AC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F64BBA1C4FD5B000DC7AC4 /* main.m */; };
 		81F64BBE1C4FD5B000DC7AC4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F64BBD1C4FD5B000DC7AC4 /* AppDelegate.m */; };
 		81F64BC11C4FD5B000DC7AC4 /* FRPixels.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 81F64BBF1C4FD5B000DC7AC4 /* FRPixels.xcdatamodeld */; };
 		81F64BC31C4FD5B000DC7AC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81F64BC21C4FD5B000DC7AC4 /* Assets.xcassets */; };
 		81F64BC61C4FD5B000DC7AC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81F64BC41C4FD5B000DC7AC4 /* LaunchScreen.storyboard */; };
 		81F64BD11C4FD5B000DC7AC4 /* FRPixelsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F64BD01C4FD5B000DC7AC4 /* FRPixelsTests.m */; };
+		EEAA1598838787DB0E3DDF86 /* libPods-FRPixels.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E5CFE5C4FCA25E40FADD1F4 /* libPods-FRPixels.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10EBA8A91060C43019E67916 /* Pods-FRPixelsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FRPixelsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FRPixelsTests/Pods-FRPixelsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		23D936A6FC821C8CAA1B04EC /* Pods-FRPixelsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FRPixelsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FRPixelsTests/Pods-FRPixelsTests.release.xcconfig"; sourceTree = "<group>"; };
+		28FFBD1AA596F749491A35D4 /* Pods-FRPixels.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FRPixels.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FRPixels/Pods-FRPixels.debug.xcconfig"; sourceTree = "<group>"; };
+		6D3C194A64FBA72B7FF0DD0A /* libPods-FRPixelsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FRPixelsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E5CFE5C4FCA25E40FADD1F4 /* libPods-FRPixels.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FRPixels.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81F64BB61C4FD5B000DC7AC4 /* FRPixels.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FRPixels.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81F64BBA1C4FD5B000DC7AC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		81F64BBC1C4FD5B000DC7AC4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -37,6 +44,7 @@
 		81F64BCC1C4FD5B000DC7AC4 /* FRPixelsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FRPixelsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81F64BD01C4FD5B000DC7AC4 /* FRPixelsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FRPixelsTests.m; sourceTree = "<group>"; };
 		81F64BD21C4FD5B000DC7AC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB6355F0CFB95421FCF6B294 /* Pods-FRPixels.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FRPixels.release.xcconfig"; path = "Pods/Target Support Files/Pods-FRPixels/Pods-FRPixels.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEAA1598838787DB0E3DDF86 /* libPods-FRPixels.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,18 +60,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4136A16476D7E7736A0CDEB5 /* libPods-FRPixelsTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0EA49BDD5E1789DCBA0F98A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				28FFBD1AA596F749491A35D4 /* Pods-FRPixels.debug.xcconfig */,
+				CB6355F0CFB95421FCF6B294 /* Pods-FRPixels.release.xcconfig */,
+				10EBA8A91060C43019E67916 /* Pods-FRPixelsTests.debug.xcconfig */,
+				23D936A6FC821C8CAA1B04EC /* Pods-FRPixelsTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		81F64BAD1C4FD5B000DC7AC4 = {
 			isa = PBXGroup;
 			children = (
 				81F64BB81C4FD5B000DC7AC4 /* FRPixels */,
 				81F64BCF1C4FD5B000DC7AC4 /* FRPixelsTests */,
 				81F64BB71C4FD5B000DC7AC4 /* Products */,
+				0EA49BDD5E1789DCBA0F98A3 /* Pods */,
+				EAFA14F4637ADAD99674F0BF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +129,15 @@
 			path = FRPixelsTests;
 			sourceTree = "<group>";
 		};
+		EAFA14F4637ADAD99674F0BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E5CFE5C4FCA25E40FADD1F4 /* libPods-FRPixels.a */,
+				6D3C194A64FBA72B7FF0DD0A /* libPods-FRPixelsTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -113,9 +145,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 81F64BD51C4FD5B000DC7AC4 /* Build configuration list for PBXNativeTarget "FRPixels" */;
 			buildPhases = (
+				88A0D6ED7EAF9347C19DAB66 /* Check Pods Manifest.lock */,
 				81F64BB21C4FD5B000DC7AC4 /* Sources */,
 				81F64BB31C4FD5B000DC7AC4 /* Frameworks */,
 				81F64BB41C4FD5B000DC7AC4 /* Resources */,
+				BB178B80B0F7101D1491FC58 /* Embed Pods Frameworks */,
+				8A970A87603F230A9B57523D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,9 +165,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 81F64BD81C4FD5B000DC7AC4 /* Build configuration list for PBXNativeTarget "FRPixelsTests" */;
 			buildPhases = (
+				B396CBCC9830739140EFEAF4 /* Check Pods Manifest.lock */,
 				81F64BC81C4FD5B000DC7AC4 /* Sources */,
 				81F64BC91C4FD5B000DC7AC4 /* Frameworks */,
 				81F64BCA1C4FD5B000DC7AC4 /* Resources */,
+				AAF2B5290AF145229B522CDF /* Embed Pods Frameworks */,
+				43740E790A4968740E3BD127 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,6 +237,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		43740E790A4968740E3BD127 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FRPixelsTests/Pods-FRPixelsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88A0D6ED7EAF9347C19DAB66 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8A970A87603F230A9B57523D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FRPixels/Pods-FRPixels-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAF2B5290AF145229B522CDF /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FRPixelsTests/Pods-FRPixelsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B396CBCC9830739140EFEAF4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BB178B80B0F7101D1491FC58 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FRPixels/Pods-FRPixels-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		81F64BB21C4FD5B000DC7AC4 /* Sources */ = {
@@ -325,6 +456,7 @@
 		};
 		81F64BD61C4FD5B000DC7AC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28FFBD1AA596F749491A35D4 /* Pods-FRPixels.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FRPixels/Info.plist;
@@ -336,6 +468,7 @@
 		};
 		81F64BD71C4FD5B000DC7AC4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB6355F0CFB95421FCF6B294 /* Pods-FRPixels.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FRPixels/Info.plist;
@@ -347,6 +480,7 @@
 		};
 		81F64BD91C4FD5B000DC7AC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10EBA8A91060C43019E67916 /* Pods-FRPixelsTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = FRPixelsTests/Info.plist;
@@ -359,6 +493,7 @@
 		};
 		81F64BDA1C4FD5B000DC7AC4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23D936A6FC821C8CAA1B04EC /* Pods-FRPixelsTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = FRPixelsTests/Info.plist;
@@ -388,6 +523,7 @@
 				81F64BD71C4FD5B000DC7AC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		81F64BD81C4FD5B000DC7AC4 /* Build configuration list for PBXNativeTarget "FRPixelsTests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +532,7 @@
 				81F64BDA1C4FD5B000DC7AC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
