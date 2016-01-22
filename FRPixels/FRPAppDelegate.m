@@ -6,18 +6,23 @@
 //  Copyright © 2016 Fuzz Productions. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "FRPAppDelegate.h"
+#import "FRPGalleryViewController.h"
 
-@interface AppDelegate ()
-
+@interface FRPAppDelegate ()
+@property (nonatomic, strong) PXAPIHelper *apiHelper;
 @end
 
-@implementation AppDelegate
+@implementation FRPAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 	self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-	// Override point for customization after application launch.
+
+	self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[FRPGalleryViewController alloc] init]];
+	
+	[self configurePXAPIHelper];
+	
 	self.window.backgroundColor = [UIColor whiteColor];
 	[self.window makeKeyAndVisible];
 	return YES;
@@ -45,6 +50,12 @@
 	// Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 	// Saves changes in the application's managed object context before the application terminates.
 	[self saveContext];
+}
+
+- (void)configurePXAPIHelper {
+	NSString *consumerKey = @"DC2To2BS0ic1ChKDK15d44M42YHf9gbUJgdFoF0m";
+	NSString *consumerSecret = @"i8WL4chWoZ4kw9fh3jzHK7XzTer1y5tUNvsTFNnB";
+	[PXRequest setConsumerKey:consumerKey consumerSecret:consumerSecret];
 }
 
 #pragma mark - Core Data stack
